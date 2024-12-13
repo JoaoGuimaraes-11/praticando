@@ -8,6 +8,9 @@
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
 }
+img{
+    cursor: pointer;
+}
 header.hero-content{
     width: 100%;
     height: 80px;
@@ -26,6 +29,7 @@ header.hero-content{
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 300;
+    cursor: pointer;
 }
 .nav-itens ul{
     display: flex;
@@ -132,7 +136,6 @@ section.formulario-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 form{
     display: flex;
@@ -148,6 +151,10 @@ form{
     height: 500px;
     border-radius: 10px;
     margin-right: 17%;
+}
+form h3{    
+    font-weight: 300;
+    text-transform: uppercase;
 }
 .imagem-form{
     width: 40%;
@@ -183,6 +190,13 @@ textarea{
     outline: none;
     background: #c395ea;
     border-radius: 10px;
+    transition: .5s all ease-in-out;
+}
+.btn-form a{
+    text-decoration: none; 
+}
+.btn-form:hover{
+    transform: scale(1.1);
 }
 footer{
     padding: 20px;
