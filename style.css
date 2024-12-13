@@ -218,6 +218,9 @@ footer{
        gap: 30px;
        margin-top: 50px;
     }
+    .container-section p{
+        font-size: 17px;
+    }
     .container-section .imagem{
         display: flex;
         width: 100%;
