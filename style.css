@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+header.hero-content{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    background: #c395ea;
+}
+.container-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+}
+.nav-itens ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav-itens ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+.container-section{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.container-section .sobre-mim{
+    width: 40%;
+    margin-left: 5%;
+    font-weight: 300;
+    color: black;
+}
+.sobre-mim p{
+    font-weight: 300;
+    text-align: left;
+}
+.btn{
+    padding: 15px;
+    width: 230px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #c395ea;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.container-section .imagem{
+    width: 40%;
+    margin-right: 5%;
+}
+.imagem img{
+    max-width: 770px;
+    cursor: pointer;
+}
+/* Estilizando o contêiner da seção */
+.cards-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o título da seção */
+.cards-content h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 00;
+}
+
+/* Estilizando o contêiner dos cards */
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1280px;
+    gap: 50px;
+}
+
+/* Estilizando os cards */
+.cards {
+    padding: 20px;
+    border-radius: 10px;
+    width: 33%;
+    border: 2px solid #c395ea;
+}
+
+/* Estilizando o título dentro de cada card */
+.cards h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cards p{
+    font-weight: 300;
+    text-align: left;
+    color: #333;
+}
+section.formulario-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+}
+.container-formulario{
+    width: 100%;
+    height: 800px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+form{
+    display: flex;
+    width: 40%;
+    max-width:500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid #c395ea;
+    margin-top: 10px;
+    height: 500px;
+    border-radius: 10px;
+    margin-right: 17%;
+}
+.imagem-form{
+    width: 40%;
+    margin-left: 10%;
+}
+.imagem-form img{
+    width: 80%;
+}
+.container-formulario form input[type = "text"]{
+    border: none;
+    outline: none;
+    border: 2px solid #c395ea;
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+textarea{
+    border: none;
+    outline: none;
+    border: 2px solid #c395ea;
+    height: 180px;
+    width: 300px;
+    max-height: 190px;
+    max-width: 310px;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.btn-form{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #c395ea;
+    border-radius: 10px;
+}
+footer{
+    padding: 20px;
+    background: #c395ea;
+    text-align: center;
+}
